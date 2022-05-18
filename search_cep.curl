@@ -1,0 +1,7 @@
+curl --request POST \
+  --url http://localhost:3012/api/v1/search-cep \
+  --header 'Authorization: ${seu JWT}' \
+  --header 'Content-Type: application/json' \
+  --data '{
+	"cep": "CEP a ser localizado"
+}'

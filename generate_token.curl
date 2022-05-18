@@ -1,0 +1,4 @@
+curl --request POST \
+  --url http://localhost:3012/api/v1/generate-token \
+  --header 'Content-Type: application/json' \
+  --header 'api-secret: ${adicionar api-secret}'
